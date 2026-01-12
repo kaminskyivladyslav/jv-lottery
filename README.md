@@ -15,3 +15,29 @@ To test the program, in the main() method, create three balls using the `getRand
 And print information about them in the console.
 
 #### [Try to avoid these common mistakes, while solving task](./checklist.md)
+jv-lottery
+
+Давай створимо просту лотерею, яка повертатиме кульки з випадковим кольором і випадковим номером.
+
+Твої завдання:
+
+створити клас Ball з такими полями: color і number, та перевизначити метод toString()
+
+створити enum з різними кольорами
+
+реалізувати метод getRandomColor() у класі ColorSupplier
+Цей метод має повертати випадковий колір, базуючись на значеннях enum (використовуй клас Random)
+
+Далі створи клас Lottery з методом getRandomBall(), який повертатиме кульку.
+Цей метод має:
+
+створювати кульку з випадковим кольором
+
+створювати кульку з випадковим номером (максимальне можливе число — 100)
+
+повертати цю кульку з методу
+
+Для перевірки програми:
+
+У методі main() створи три кульки, використовуючи метод getRandomBall() класу Lottery,
+та виведи інформацію про них у консоль.
